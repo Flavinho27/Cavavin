@@ -1,4 +1,4 @@
-# Cavavin
+# Cavavin 🍷
 Application Web de gestion de cave à vin
 
 - 1 - Lancer le serveur python (port 80)
