@@ -1,0 +1,123 @@
+
+*, ::before, ::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body, html{height:100%;}
+
+/*La div principale*/
+
+main{
+	max-width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	position: relative;
+	color: white;
+}
+
+#accueil{
+	background-color: black;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 45%;
+}
+
+h1
+{
+	background-color: teal;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2.1vw;
+	padding: 10px 30px;
+	border-radius: 20px;
+}
+
+#logo{
+	position: absolute;
+	left: 50%;
+	top: 15%;
+	transform: translateX(-50%);
+	width: 12vw;
+	border-radius: 50%;
+	z-index: 100;
+}
+
+#menu
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 45%;
+	width: 55%;
+}
+
+.divButton
+{
+	height: 33.33vh;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	background-color: black;
+	position: relative;
+}
+
+#first{
+	top: 0;
+}
+
+#third{
+	bottom: 0;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 2.2vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+a::before{
+	content: "";
+	position: absolute;
+	background: white;
+	width: 100%;
+	height: 3px;
+	bottom: 0;
+	transform-origin: 100% 0;
+	transform: scaleX(0);
+	transition: transform 0.4s;
+}
+
+a:hover::before{
+	transform-origin: 0 0;
+	transform: scaleX(1);
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 200px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+p.footer {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+}

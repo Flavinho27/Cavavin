@@ -1,0 +1,76 @@
+
+*, ::before, ::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body, html{height:100%;}
+
+body{
+	width: 1200px;
+	margin: auto;
+	background-color: teal;
+}
+
+#background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: 0.8;
+	z-index: -100;
+}
+
+/*La div principale*/
+main{
+	max-width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	position: relative;
+	color: white;
+}
+
+#back_button {
+	width: 5vw;
+	position: fixed;
+	top: 60px;
+	left: 60px;
+}
+
+form{
+	/*background-color: red;*/
+	height: 33.33vh;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+legend {
+	color: red;
+}
+
+label {
+	color: #40d3e8;
+}
+
+fieldset{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	padding: 25px;
+	background-color: rgba(0, 0, 0, 0.85);
+}
+
+input{
+	height: 25px;
+	position: relative;
+	top: -2px;
+}
+
+button{
+	padding: 5px 10px 5px 10px;
+	margin: 25px 15px 0 15px;
+	font-weight: bold;
+	font-size: 17px;
+}
