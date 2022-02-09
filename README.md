@@ -1,5 +1,5 @@
 # Cavavin 🍷
-Application Web de gestion de cave à vin
+Application Web de gestion de cave à vin réalisé au Lycée
 
 - 1 - Lancer le serveur python (port 80)
 - 2 - Ouvrez votre navigateur sur le port 80
